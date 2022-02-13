@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://github.com/Ostinchuk/kaholo-pipelines/find/main
+HostUrl=https://github.com/Ostinchuk/kaholo-pipelines/blob/main/sync_salesforce_mysql/Synchronize%20Salesforce%20with%20MySQL.json
