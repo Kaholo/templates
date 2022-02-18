@@ -2,6 +2,8 @@
 
 You can use this template to build a Docker image and deploy it based on the following logic:
 
+![build-docker-and-deploy](https://i.imgur.com/EZLMWvj.png)
+
 1. Clean up your working directory using the **File System Plugin**. The **Delete File/Directory** method allows you to remove any old build directory.
 2. Clone the repository using the **git Plugin**.
 3. With the **Command Line Plugin**, execute command ```ls -lh /home/node``` to list the files or directories of a specified path. In this case, ```/home/node``` is the local path where the git repository was previously cloned. 
@@ -18,8 +20,6 @@ You can use this template to build a Docker image and deploy it based on the fol
 6. Build the Docker image. Specify the path of the dockerfile to build the image from. You can also add a tag to the image, such as ```latest```.
 7. Push the container to the registry. Specify the image name, image tag, and registry. If the registry is not specified, the image is pushed to Docker Hub registry by default.
 8. Call a webhook using the **HTTP Requests Plugin** to force cluster update. 
-
-![build-docker-and-deploy](https://i.imgur.com/EZLMWvj.png)
 
 ## Plugins used in the template
 
