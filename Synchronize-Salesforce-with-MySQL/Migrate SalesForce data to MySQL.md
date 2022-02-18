@@ -9,11 +9,11 @@ You can use this template to syncronize data from Salesforce to MySQL based on t
 * Insert Salesforce object records into the given table
 * Send a Slack notification
 
-![migrate-salesforce-data-to-mysql](D:\Work\Kaholo\plugins templates\salesforce_mysql.png)
+![sync-salesforce-data-to-mysql](https://i.imgur.com/BHcIwma.png)
 
 ## Plugins used in the template
 
-* [SalesForce Plugin[(https://github.com/Kaholo/kaholo-plugin-salesforce)] for Kaholo
+* [SalesForce Plugin](https://github.com/Kaholo/kaholo-plugin-salesforce) for Kaholo
 * [MySQL Plugin](https://github.com/Kaholo/kaholo-plugin-MySQL) for Kaholo
 * [Slack Plugin](https://github.com/Kaholo/kaholo-plugin-slack) for Kaholo
 
@@ -26,7 +26,7 @@ You can use this template to syncronize data from Salesforce to MySQL based on t
 * column_mapping - The mapping of the table columns including column names and data types.
 
 Example:
-
+    
 {
     "sf_object": "Account",
     "sf_limit": 2000,
