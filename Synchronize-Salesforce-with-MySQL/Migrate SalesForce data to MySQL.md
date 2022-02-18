@@ -26,7 +26,7 @@ You can use this template to syncronize data from Salesforce to MySQL based on t
 * column_mapping - The mapping of the table columns including column names and data types.
 
 Example:
-    
+```    
 {
     "sf_object": "Account",
     "sf_limit": 2000,
@@ -39,3 +39,4 @@ Example:
         {"sf_object_field": "Phone", "column_name": "phone", "data_type": "VARCHAR(255)"}
     ]
 }
+```
