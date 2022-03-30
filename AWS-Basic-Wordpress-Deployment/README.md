@@ -1,6 +1,6 @@
 # AWS Basic Wordpress Deployment
 
-![AWS-Basic-Wordpress-Deployment](/aws-basic-wordpress-deployment.png)
+![AWS-Basic-Wordpress-Deployment](/AWS-Basic-Wordpress-Deployment/aws-basic-wordpress-deployment.png)
 
 This pipeline template enables you to deploy a standalone Wordpress environment within AWS by creating a new VPC and subnet within an existing AWS account, allocating an fixed (elastic) public IP address, creating an EC2 keypair and then deploying an AWS security group to control traffic in and out of the Wordpress instance. Finally, it can send a notification to a slack channel to indicate completion of the pipeline.
 
